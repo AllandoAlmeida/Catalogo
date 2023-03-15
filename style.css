@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    width: 100%;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px 0 10px 0px;
+}
+
+
+.button {
+    background-color:#0A99FE 0.10;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #0A99FE;
+    width: 150px;
+    height: 40px;
+}
+
+.button:focus{
+    background-color:  #0A99FE;
+    color: #FFFFFF;
+}
+
+.button:hover{
+    box-shadow: 5px 5px 5px -5px #0A99FE;
+}
+
+.container{
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    box-shadow: 0 -9px 5px -5px #86838362;
+    
+}
+
+
+h2{
+    width: 207px;
+    height: 50px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+ul li {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: hsla(0, 1%, 52%, 0.075);
+    color: #868383;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 0px;
+    
+}
+
+ul li:hover{
+    border: 1px solid rgba(48, 48, 43, 0.459);
+    box-shadow: 10px 10px 10px -5px #868383;
+}
+
+
+ul li p {
+    font-size: 16px;
+    text-align: center;
+    height: 50px;
+}
+
+
+.image-card{
+    width: 207px;
+    height: 275px;
+}
